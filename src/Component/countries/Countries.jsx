@@ -1,12 +1,10 @@
 import React, { use } from "react";
 import Country from "./Country/Country";
-import './countries.css';
-
+import "./countries.css";
 
 const Countries = ({ countriesPromise }) => {
   const countriesData = use(countriesPromise);
   const countries = countriesData.countries;
-
 
   return (
     <div>
