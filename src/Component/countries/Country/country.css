@@ -1,0 +1,24 @@
+.country {
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
+}
+.country img {
+    width: 100px;
+    height: auto;
+    border-radius: 5px;
+}
+.country h2 {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+.country p {
+    margin: 5px 0;
+    font-size: 1em;
+}
