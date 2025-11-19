@@ -17,8 +17,8 @@ const Countries = ({ countriesPromise }) => {
       <h2>In the countries: {countries.length}</h2>
       <h3>Total Country Visited: {visitedCountries.length} </h3>
       <ol>
-        {visitedCountries.map((country) => (
-          <li key={country.cca3.cca3}>{country}</li>
+        {visitedCountries.map((country, index) => (
+          <li key={index}>{country}</li>
         ))}
       </ol>
       <div className="countries">

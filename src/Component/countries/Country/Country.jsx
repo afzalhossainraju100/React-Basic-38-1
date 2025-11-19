@@ -4,7 +4,6 @@ const Country = ({ country, handleVisitedCountry }) => {
   const [visited, setVisited] = useState(false);
 
   const handleVisited = () => {
-    console.log(handleVisitedCountry);
     // if(visited){
     //     setVisited(false);
     // }else{
